@@ -69,7 +69,7 @@ function stopT() {
 
 function resetT() {
     stopT();
-    Interval = 0;
+    currTime = 0;
     
     minutes.innerHTML = seconds.innerHTML = milisec.innerHTML = pad(0);  //pad(0) =="00"
 }
