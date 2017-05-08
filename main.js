@@ -18,6 +18,27 @@ reset.addEventListener("click", resetT);
 
 
 
+document.addEventListener("keyup", function(e) {
+    
+    if (e.keyCode === 13) {
+        startT();    
+    } 
+},false);
+
+document.addEventListener("keyup", function(e) {
+    
+    if (e.keyCode === 32) {
+        stopT();    
+    }  
+},false);
+
+
+document.addEventListener("keyup", function(e) {
+    
+    if (e.keyCode === 8) {
+        resetT();    
+    }  
+},false);
 
 
 

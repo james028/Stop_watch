@@ -8,23 +8,30 @@
     <title>Stopwatch</title>
 
     <link href="style.css" rel="stylesheet">
+      
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
 
   </head>
   <body>
 
-      <div class="main-stopwatch">
-        <div class="buttons-stopwatch">
-            <button class="button-start">Start</button> 
-            <button class="button-stop">Stop</button>
-            <button class="button-reset">Reset</button>
-        </div>
-        <div class="numbers-stopwatch">
-            <span class="minutes">00</span><span class="seconds">00</span><span class="miliseconds">00</span> 
-        </div>
+      <div class="container">
+          <div class="main-stopwatch">
+            <div class="numbers-stopwatch">
+                <span class="minutes">00</span><span class="seconds">00</span><span class="miliseconds">00</span> 
+            </div>
+            <div class="buttons-stopwatch">
+                <button class="button-start">Start</button> 
+                <button class="button-stop">Stop</button>
+                <button class="button-reset">Reset</button>
+            </div>
+          </div>
+          <div class="stopwatch-tutor">
+            <p>Click "ENTER" to START<br>
+                Click "SPACE" to STOP<br>
+              Click "BACKSPACE" to RESET</p>  
+          </div>
       </div>
 
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
