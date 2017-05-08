@@ -7,7 +7,7 @@
     }
     .numbers-stopwatch
     {
-        font-size: 90px;
+        font-size: 100px;
     }
     .buttons-stopwatch
     {
@@ -17,8 +17,11 @@
     .button-start, .button-stop, .button-reset
     {
         width: 100%;
-        min-height: 60px;
+        min-height: 70px;
     }
-
+    .stopwatch-tutor p
+    {
+        display: none;
+    }
     
 }
